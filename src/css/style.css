@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt|Raleway);
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #555;
+    font-family: "Raleway";
+
+}
+
+h1,
+h2 {
+    font-family: "Rock Salt";
+}
+
+
+.header {
+	padding-top: 1%;
+	position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/V2Cv2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
