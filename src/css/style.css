@@ -14,7 +14,7 @@ h2 {
     font-family: "Rock Salt";
 }
 
-
+/* Header */
 .header {
 	padding-top: 1%;
 	position: relative;
@@ -27,12 +27,18 @@ h2 {
     -o-background-size: cover;
 }
 
-/* Custom Button Styles */
+/* About */
+.about {
+    padding: 3.7em;
+}
 
+
+/* Custom Button Styles */
 .btn-dark {
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+    vertical-align: bottom;
 }
 
 .btn-dark:hover,
@@ -40,4 +46,19 @@ h2 {
 .btn-dark:active {
     color: #fff;
     background-color: rgba(0,0,0,0.8);
+    vertical-align: bottom;
+}
+
+.btn-about {
+    border-radius: 0;
+    color: #fff;
+    background-color: #31708f;
+    margin-top: 0.2em;
+}
+
+.btn-about:hover,
+.btn-about:focus,
+.btn-about:active {
+    color: #fff;
+    background-color: #1e4b61;
 }
